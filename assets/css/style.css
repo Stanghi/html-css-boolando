@@ -167,8 +167,50 @@ main .row .card:hover .second-img{
 /* FOOTER */
 footer{
     background-color: #1A1A1A;
+    color: #FFFFFF;
     height: 110px;
 }
 
+footer .big-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .box h3{
+padding-top: 25px ;
+}
+
+footer .container .box ul{
+    padding-top: 10px;
+    list-style: none; 
+    display: flex;
+}
+
+footer .container .left-side ul li{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+footer .container .box ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+footer .container .box ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .container .box-right span{
+    display: block;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+footer .container .box-right .social i{
+    font-size: 1.4rem;
+    padding-right: 5px;
+    padding-top: 10px;
+}
 
 /* END FOOTER */
