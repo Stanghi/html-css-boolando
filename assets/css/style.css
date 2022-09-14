@@ -129,6 +129,17 @@ main .card .second-img{
     background-color: #008000;
 }
 
+.card .tag-2{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    padding: 5px 10px;
+    color: #FFFFEF;
+    font-size: .9rem;
+    font-weight: bold;
+    background-color: #008000;
+}
+
 main .row .card p,span{
     font-size: 0.9rem;
 }
@@ -152,3 +163,12 @@ main .row .card:hover .second-img{
     display: block;
 }
 /* END MAIN */
+
+/* FOOTER */
+footer{
+    background-color: #1A1A1A;
+    height: 110px;
+}
+
+
+/* END FOOTER */
