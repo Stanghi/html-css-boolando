@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
@@ -17,11 +18,13 @@ img{
     max-width: 100%;
 }
 
+/* UTILITY */
 .debug{
     background-color: rgba(red, 0, 0, 0.25);
     border: 1px solid black;
 }
 
+/* COMPONENTS */
 .container{
     width: 75%;
     max-width: 1400px;
