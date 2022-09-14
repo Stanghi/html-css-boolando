@@ -79,7 +79,10 @@ header .menu .icon i{
 
 /* MAIN */
 main .row{
-    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
 }
 
 main .card{
@@ -88,7 +91,6 @@ main .card{
 	position: relative;
 	width: 445px;
     margin-bottom: 60px;
-    margin-right: 10px;
 }
 
 main .card .second-img{
