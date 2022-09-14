@@ -87,6 +87,8 @@ main .card{
 	display: inline-block;
 	position: relative;
 	width: 445px;
+    margin-bottom: 60px;
+    margin-right: 10px;
 }
 
 main .card .second-img{
