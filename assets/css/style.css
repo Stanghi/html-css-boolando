@@ -23,7 +23,8 @@ img{
 }
 
 .container{
-    width: 70%;
+    width: 75%;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -31,6 +32,7 @@ img{
 header{
     position: fixed;
     display: flex;
+    z-index: 999;
     align-items: center;
     background-color: #FF6900;
     height: 75px;
@@ -74,3 +76,77 @@ header .menu .icon i{
 
 }
 /* END HEADER */
+
+/* MAIN */
+main .row{
+    padding: 60px 0px;
+}
+
+main .card{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	width: 445px;
+}
+
+main .card .second-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.card .heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 1.5rem;
+    padding: 15px 15px;
+    background-color: #FFFFFF;
+}
+
+.card .discount{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    padding: 5px 10px;
+    color: #FFFFEF;
+    font-size: .9rem;
+    font-weight: bold;
+    background-color: #FF0000;
+}
+
+.card .tag{
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    padding: 5px 10px;
+    color: #FFFFEF;
+    font-size: .9rem;
+    font-weight: bold;
+    background-color: #008000;
+}
+
+main .row .card p,span{
+    font-size: 0.9rem;
+}
+
+main .row .card p{
+    display: inline-block;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+main .row .card .cancelled{
+    text-decoration: line-through;
+}
+
+main .row .card h2{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+main .row .card:hover .second-img{
+    display: block;
+}
+/* END MAIN */
