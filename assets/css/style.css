@@ -195,6 +195,7 @@ footer .container .box ul li a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 0.9rem;
+    padding-right: 10px;
 }
 
 footer .container .box ul li a:hover{
